@@ -100,7 +100,7 @@ Frontend will be live at: `http://localhost:5173`
 ## Assumptions & Limitations
 
 - **Single admin, no auth** – As per requirements, no login is needed
-- **SQLite** – Used for simplicity; swap `DATABASE_URL` in `main.py` for PostgreSQL/MySQL in production
+- **SQLite** – Used for simplicity; swap `DATABASE_URL` in `main.py`
 - **CORS** – Set to `allow_origins=["*"]`; restrict to your frontend domain in production
 - Attendance for the same employee + date is **updated** (not duplicated) if re-submitted
 - No leave management, payroll, or multi-user support (out of scope)

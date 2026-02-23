@@ -4,8 +4,8 @@ A lightweight Human Resource Management System built with FastAPI and React.
 
 ## Live Demo
 
-- **Frontend:** `<your-vercel-url>`
-- **Backend:** `<your-render-url>`
+- **Frontend:** `https://hrms-assignment-ten.vercel.app/`
+- **Backend:** `https://hrms-lite-api-11yw.onrender.com`
 
 ## Tech Stack
 
@@ -59,7 +59,7 @@ Frontend will be live at: `http://localhost:5173`
 > By default the frontend points to `http://localhost:8000`.  
 > To use a custom backend URL, create `frontend/.env` with:
 > ```
-> VITE_API_URL=https://your-backend.onrender.com
+> VITE_API_URL=`https://hrms-assignment-ten.vercel.app/`
 > ```
 
 ---
@@ -78,7 +78,7 @@ Frontend will be live at: `http://localhost:5173`
 
 1. Import your GitHub repo on [vercel.com](https://vercel.com)
 2. Set **root directory** to `frontend/`
-3. Add environment variable: `VITE_API_URL=<your-render-url>`
+3. Add environment variable: `https://hrms-assignment-ten.vercel.app/`
 4. Deploy
 
 ---
